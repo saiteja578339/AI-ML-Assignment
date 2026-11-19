@@ -1,0 +1,122 @@
+[
+  {
+    "model_type": "4-bit",
+    "model": "smollm2:135m-instruct-q4_K_M",
+    "prompt_number": 1,
+    "prompt": "What is photosynthesis? Explain in two sentences.",
+    "answer": "Photosynthesis is a process used by plants, algae, and some bacteria to convert light energy from the sun into chemical energy stored in glucose, a type of sugar. This process is crucial for life on Earth, as it provides the primary energy source for nearly all ecosystems.",
+    "output_tokens": 55,
+    "generation_seconds": 1.298,
+    "tokens_per_second": 42.36,
+    "load_seconds": 1.353,
+    "total_seconds": 2.943
+  },
+  {
+    "model_type": "4-bit",
+    "model": "smollm2:135m-instruct-q4_K_M",
+    "prompt_number": 2,
+    "prompt": "Why do websites use HTTPS? Explain simply.",
+    "answer": "HTTPS stands for Hypertext Transfer Protocol Secure, which is a secure way to send and retrieve data online. It's a protocol that ensures the security of data transmitted over the internet, including websites, emails, and online banking transactions.\n\nHTTPS is used for several reasons:\n\n1. **Secure data transfer**: HTTPS encrypts data sent over the internet, making it difficult for hackers",
+    "output_tokens": 80,
+    "generation_seconds": 1.58,
+    "tokens_per_second": 50.64,
+    "load_seconds": 0.039,
+    "total_seconds": 1.747
+  },
+  {
+    "model_type": "4-bit",
+    "model": "smollm2:135m-instruct-q4_K_M",
+    "prompt_number": 3,
+    "prompt": "What is the difference between a Python list and tuple?",
+    "answer": "Python lists and tuples are both data structures used to store and manipulate collections of items. However, they have distinct differences:\n\n**List:**\n\nA list is a mutable collection of items, meaning you can modify the items themselves. Lists are ordered collections, meaning the order of the items is preserved. Lists can contain multiple items, and you can access and modify items using indexing. Lists",
+    "output_tokens": 80,
+    "generation_seconds": 1.5,
+    "tokens_per_second": 53.33,
+    "load_seconds": 0.016,
+    "total_seconds": 1.634
+  },
+  {
+    "model_type": "4-bit",
+    "model": "smollm2:135m-instruct-q4_K_M",
+    "prompt_number": 4,
+    "prompt": "What is a primary key in SQL?",
+    "answer": "A primary key in SQL is a column in a table that uniquely identifies each row in the table. It is used to enforce data integrity and uniqueness. A primary key is a column that is used to uniquely identify each row in a table, ensuring that each row has a unique value.\n\nIn SQL, a primary key is typically represented by a unique identifier (unique identifier), such as `ID",
+    "output_tokens": 80,
+    "generation_seconds": 1.402,
+    "tokens_per_second": 57.05,
+    "load_seconds": 0.05,
+    "total_seconds": 1.551
+  },
+  {
+    "model_type": "4-bit",
+    "model": "smollm2:135m-instruct-q4_K_M",
+    "prompt_number": 5,
+    "prompt": "What does a CPU do in a computer?",
+    "answer": "A CPU (Central Processing Unit) is the brain of a computer. It's responsible for executing instructions and performing calculations. It's the core component of a computer system, handling tasks such as processing data, managing resources, and controlling the flow of information.\n\nThe CPU executes instructions from a central processing unit (CPU) and executes them in a sequence of operations. These operations can include fetching",
+    "output_tokens": 80,
+    "generation_seconds": 1.477,
+    "tokens_per_second": 54.15,
+    "load_seconds": 0.005,
+    "total_seconds": 1.58
+  },
+  {
+    "model_type": "4-bit",
+    "model": "smollm2:135m-instruct-q4_K_M",
+    "prompt_number": 6,
+    "prompt": "Explain overfitting in machine learning.",
+    "answer": "Overfitting is a common issue in machine learning where a model becomes too closely tailored to the training data, capturing noise and random fluctuations in the data. This can lead to a model that performs well on the training data but poorly on new, unseen data.\n\nOverfitting occurs when a model is too complex and learns the noise in the training data, rather than the underlying patterns. This can happen",
+    "output_tokens": 80,
+    "generation_seconds": 1.693,
+    "tokens_per_second": 47.26,
+    "load_seconds": 0.007,
+    "total_seconds": 1.806
+  },
+  {
+    "model_type": "4-bit",
+    "model": "smollm2:135m-instruct-q4_K_M",
+    "prompt_number": 7,
+    "prompt": "Calculate 12 multiplied by 8. Give only the answer.",
+    "answer": "To calculate 12 multiplied by 8, we'll follow these steps:\n\n1. Multiply 12 by 8: 12 * 8 = 104\n2. Add 104 to 12: 104 + 12 = 116\n\nSo, 12 multiplied by 8 is 11",
+    "output_tokens": 80,
+    "generation_seconds": 1.424,
+    "tokens_per_second": 56.2,
+    "load_seconds": 0.008,
+    "total_seconds": 1.589
+  },
+  {
+    "model_type": "4-bit",
+    "model": "smollm2:135m-instruct-q4_K_M",
+    "prompt_number": 8,
+    "prompt": "Reverse this string: \"RAG\". Give only the result.",
+    "answer": "Reverse the following string: \"RAG\".",
+    "output_tokens": 11,
+    "generation_seconds": 0.213,
+    "tokens_per_second": 51.65,
+    "load_seconds": 0.008,
+    "total_seconds": 0.371
+  },
+  {
+    "model_type": "4-bit",
+    "model": "smollm2:135m-instruct-q4_K_M",
+    "prompt_number": 9,
+    "prompt": "Summarize in one sentence: A server stores files and sends them to clients when requested.",
+    "answer": "A server stores files and sends them to clients when requested.",
+    "output_tokens": 13,
+    "generation_seconds": 0.232,
+    "tokens_per_second": 55.93,
+    "load_seconds": 0.005,
+    "total_seconds": 0.418
+  },
+  {
+    "model_type": "4-bit",
+    "model": "smollm2:135m-instruct-q4_K_M",
+    "prompt_number": 10,
+    "prompt": "Give exactly three ways to reduce electricity consumption at home.",
+    "answer": "Here are three ways to reduce electricity consumption at home:\n\n1. **Turn Off Lights and Electronics**: Turn off lights and electronics when not in use, and unplug devices that drain power, such as TVs, computers, and chargers. This simple action can save up to 30% of your energy consumption.\n\n2. **Use Energy-Efficient Appliances**: Replace old,",
+    "output_tokens": 80,
+    "generation_seconds": 1.665,
+    "tokens_per_second": 48.03,
+    "load_seconds": 0.019,
+    "total_seconds": 1.839
+  }
+]

@@ -1,0 +1,75 @@
+model_type,model,prompt_number,prompt,answer,output_tokens,generation_seconds,tokens_per_second,load_seconds,total_seconds
+FP16,smollm2:135m-instruct-fp16,1,What is photosynthesis? Explain in two sentences.,"Photosynthesis is a vital process that occurs in plants, algae, and some bacteria, converting light energy from the sun into chemical energy stored in glucose, a simple sugar. This process is essential for life on Earth, as it provides the primary energy source for nearly all ecosystems.",56,1.816,30.83,4.202,6.253
+FP16,smollm2:135m-instruct-fp16,2,Why do websites use HTTPS? Explain simply.,"HTTPS stands for Hypertext Transfer Protocol Secure. It's a secure way to send and receive data over the internet, protecting your data from hackers and other malicious actors. Here's why:
+
+1. **Encryption**: HTTPS uses encryption to protect your data from being intercepted or read. This way, even if someone intercepts your data, they won't be able to understand it.",80,2.606,30.7,0.006,2.71
+FP16,smollm2:135m-instruct-fp16,3,What is the difference between a Python list and tuple?,"Python lists and tuples are two fundamental data structures used to store and manipulate collections of items. The main difference between them is:
+
+- **Syntax**: Lists are defined using square brackets `[]` and are enclosed in square brackets `[]`. Tuples, on the other hand, are defined using parentheses `()` and are enclosed in parentheses `()`.
+
+- **Performance",80,2.75,29.09,0.006,2.855
+FP16,smollm2:135m-instruct-fp16,4,What is a primary key in SQL?,"In SQL, a primary key is a unique identifier for each row in a table. It is a column or a set of columns that uniquely identifies each row in the table. Primary keys are used to enforce data integrity, enforce constraints, and prevent data duplication.
+
+A primary key is typically a column that is used to uniquely identify each row in the table. It is used to ensure that the",80,2.76,28.98,0.007,2.857
+FP16,smollm2:135m-instruct-fp16,5,What does a CPU do in a computer?,"A CPU (Central Processing Unit) is the brain of a computer. It's responsible for executing instructions, performing calculations, and managing data. The CPU is the central component of a computer, and it's the heart of the computer's operation.
+
+When you run a program or execute a command on your computer, the CPU is the one that performs the calculations and executes the instructions. The CPU",80,2.788,28.69,0.007,2.885
+FP16,smollm2:135m-instruct-fp16,6,Explain overfitting in machine learning.,"Overfitting in machine learning occurs when a model is too complex and learns the noise in the training data, rather than the underlying patterns. This results in a model that performs well on the training data but poorly on new, unseen data.
+
+In other words, the model is too closely fit to the training data, and it's not learning the underlying relationships between the data points. As a result",80,2.664,30.03,0.008,2.759
+FP16,smollm2:135m-instruct-fp16,7,Calculate 12 multiplied by 8. Give only the answer.,"To calculate 12 multiplied by 8, we can follow these steps:
+
+1. Multiply 12 by 8: 12 * 8 = 96
+2. Add 12 to 96: 96 + 12 = 108
+
+So, 12 multiplied by 8 is 108.",80,2.716,29.46,0.006,2.831
+FP16,smollm2:135m-instruct-fp16,8,"Reverse this string: ""RAG"". Give only the result.","Reverse a string is a classic problem in programming. Here's a Python solution that uses slicing to reverse the string:
+
+```python
+def reverse_string(s):
+    return s[::-1]
+
+# Test the function
+print(reverse_string(""RAG""))  # Output: ""AGRAGRAG""
+```
+
+This function works by using Python's",80,2.774,28.84,0.012,2.913
+FP16,smollm2:135m-instruct-fp16,9,Summarize in one sentence: A server stores files and sends them to clients when requested.,A server stores files and sends them to clients when requested.,13,0.422,30.84,0.005,0.549
+FP16,smollm2:135m-instruct-fp16,10,Give exactly three ways to reduce electricity consumption at home.,"Here are three ways to reduce electricity consumption at home:
+
+1. **Turn Off Lights and Fans**: Turn off lights and fans when not in use, and unplug devices that drain power, such as computers, phones, and TVs. This simple action can save up to 30% on electricity bills.
+
+2. **Use Energy-Efficient Appliances**: Replace old, inefficient",80,2.8,28.57,0.007,2.912
+4-bit,smollm2:135m-instruct-q4_K_M,1,What is photosynthesis? Explain in two sentences.,"Photosynthesis is a process used by plants, algae, and some bacteria to convert light energy from the sun into chemical energy stored in glucose, a type of sugar. This process is crucial for life on Earth, as it provides the primary energy source for nearly all ecosystems.",55,1.298,42.36,1.353,2.943
+4-bit,smollm2:135m-instruct-q4_K_M,2,Why do websites use HTTPS? Explain simply.,"HTTPS stands for Hypertext Transfer Protocol Secure, which is a secure way to send and retrieve data online. It's a protocol that ensures the security of data transmitted over the internet, including websites, emails, and online banking transactions.
+
+HTTPS is used for several reasons:
+
+1. **Secure data transfer**: HTTPS encrypts data sent over the internet, making it difficult for hackers",80,1.58,50.64,0.039,1.747
+4-bit,smollm2:135m-instruct-q4_K_M,3,What is the difference between a Python list and tuple?,"Python lists and tuples are both data structures used to store and manipulate collections of items. However, they have distinct differences:
+
+**List:**
+
+A list is a mutable collection of items, meaning you can modify the items themselves. Lists are ordered collections, meaning the order of the items is preserved. Lists can contain multiple items, and you can access and modify items using indexing. Lists",80,1.5,53.33,0.016,1.634
+4-bit,smollm2:135m-instruct-q4_K_M,4,What is a primary key in SQL?,"A primary key in SQL is a column in a table that uniquely identifies each row in the table. It is used to enforce data integrity and uniqueness. A primary key is a column that is used to uniquely identify each row in a table, ensuring that each row has a unique value.
+
+In SQL, a primary key is typically represented by a unique identifier (unique identifier), such as `ID",80,1.402,57.05,0.05,1.551
+4-bit,smollm2:135m-instruct-q4_K_M,5,What does a CPU do in a computer?,"A CPU (Central Processing Unit) is the brain of a computer. It's responsible for executing instructions and performing calculations. It's the core component of a computer system, handling tasks such as processing data, managing resources, and controlling the flow of information.
+
+The CPU executes instructions from a central processing unit (CPU) and executes them in a sequence of operations. These operations can include fetching",80,1.477,54.15,0.005,1.58
+4-bit,smollm2:135m-instruct-q4_K_M,6,Explain overfitting in machine learning.,"Overfitting is a common issue in machine learning where a model becomes too closely tailored to the training data, capturing noise and random fluctuations in the data. This can lead to a model that performs well on the training data but poorly on new, unseen data.
+
+Overfitting occurs when a model is too complex and learns the noise in the training data, rather than the underlying patterns. This can happen",80,1.693,47.26,0.007,1.806
+4-bit,smollm2:135m-instruct-q4_K_M,7,Calculate 12 multiplied by 8. Give only the answer.,"To calculate 12 multiplied by 8, we'll follow these steps:
+
+1. Multiply 12 by 8: 12 * 8 = 104
+2. Add 104 to 12: 104 + 12 = 116
+
+So, 12 multiplied by 8 is 11",80,1.424,56.2,0.008,1.589
+4-bit,smollm2:135m-instruct-q4_K_M,8,"Reverse this string: ""RAG"". Give only the result.","Reverse the following string: ""RAG"".",11,0.213,51.65,0.008,0.371
+4-bit,smollm2:135m-instruct-q4_K_M,9,Summarize in one sentence: A server stores files and sends them to clients when requested.,A server stores files and sends them to clients when requested.,13,0.232,55.93,0.005,0.418
+4-bit,smollm2:135m-instruct-q4_K_M,10,Give exactly three ways to reduce electricity consumption at home.,"Here are three ways to reduce electricity consumption at home:
+
+1. **Turn Off Lights and Electronics**: Turn off lights and electronics when not in use, and unplug devices that drain power, such as TVs, computers, and chargers. This simple action can save up to 30% of your energy consumption.
+
+2. **Use Energy-Efficient Appliances**: Replace old,",80,1.665,48.03,0.019,1.839

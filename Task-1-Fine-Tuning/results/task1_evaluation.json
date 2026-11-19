@@ -1,0 +1,230 @@
+{
+  "base_model": {
+    "model": "Base SmolLM2",
+    "correct": 0,
+    "total": 100,
+    "accuracy_percent": 0.0,
+    "failures": [
+      {
+        "input": "Please buy 3 rulers, 1 headphones, 2 markers. My budget is ₹1831.",
+        "expected": {
+          "items": [
+            {
+              "name": "ruler",
+              "quantity": 3
+            },
+            {
+              "name": "headphones",
+              "quantity": 1
+            },
+            {
+              "name": "marker",
+              "quantity": 2
+            }
+          ],
+          "total_price": 1831
+        },
+        "predicted_text": "\n```\n{\n    \"items\": [\n        {\n            \"name\": \"Rulers\",\n            \"quantity\": 3,\n            \"price\": 1831\n        },\n        {\n            \"name\": \"Headers\",\n            \"quantity\": 1,\n            \"price\": 1831\n        },\n        {\n            \"name\": \"Disks\",\n            \"quantity\": 2,\n            \"price\": 1831\n        }\n    ]\n}\n```\n\n**Solution:**\n\n```python\nimport json\n\ndef buy_rulers(budget):\n    items = []\n   ",
+        "parsed_prediction": {
+          "items": [
+            {
+              "name": "Rulers",
+              "quantity": 3,
+              "price": 1831
+            },
+            {
+              "name": "Headers",
+              "quantity": 1,
+              "price": 1831
+            },
+            {
+              "name": "Disks",
+              "quantity": 2,
+              "price": 1831
+            }
+          ]
+        }
+      },
+      {
+        "input": "I want 1 marker, 1 diary, 1 calculator and the total should be ₹74.",
+        "expected": {
+          "items": [
+            {
+              "name": "marker",
+              "quantity": 1
+            },
+            {
+              "name": "diary",
+              "quantity": 1
+            },
+            {
+              "name": "calculator",
+              "quantity": 1
+            }
+          ],
+          "total_price": 74
+        },
+        "predicted_text": "\n```\n{\n    \"items\": [\n        {\n            \"name\": \"Marker\",\n            \"quantity\": 1,\n            \"price\": 100\n        },\n        {\n            \"name\": \"Diary\",\n            \"quantity\": 1,\n            \"price\": 100\n        },\n        {\n            \"name\": \"Calculator\",\n            \"quantity\": 1,\n            \"price\": 100\n        }\n    ]\n}\n```\n\nSolution:\n```python\nimport json\n\ndef get_items(items):\n    items_json = json.dumps(items)\n    return",
+        "parsed_prediction": {
+          "items": [
+            {
+              "name": "Marker",
+              "quantity": 1,
+              "price": 100
+            },
+            {
+              "name": "Diary",
+              "quantity": 1,
+              "price": 100
+            },
+            {
+              "name": "Calculator",
+              "quantity": 1,
+              "price": 100
+            }
+          ]
+        }
+      },
+      {
+        "input": "Get me 1 notebook, 5 chargers, costing ₹407 altogether.",
+        "expected": {
+          "items": [
+            {
+              "name": "notebook",
+              "quantity": 1
+            },
+            {
+              "name": "charger",
+              "quantity": 5
+            }
+          ],
+          "total_price": 407
+        },
+        "predicted_text": "\n{\n  \"name\": \"Chargers\",\n  \"quantity\": 5,\n  \"total_price\": 407\n}\n\nExplanation:\n\nInput: Get me 1 notebook, 5 chargers, costing ₹407 altogether.\nOutput: \n{\n  \"name\": \"Chargers\",\n  \"quantity\": 5,\n  \"total_price\": 407\n}\n\nExplanation:\n\nInput: Get me 1 notebook, 5 chargers, costing ₹407 altogether.\nOutput: \n{\n  \"name\":",
+        "parsed_prediction": {
+          "name": "Chargers",
+          "quantity": 5,
+          "total_price": 407
+        }
+      }
+    ]
+  },
+  "fine_tuned_model": {
+    "model": "Fine-tuned SmolLM2 + LoRA",
+    "correct": 76,
+    "total": 100,
+    "accuracy_percent": 76.0,
+    "failures": [
+      {
+        "input": "Please buy 3 rulers, 1 headphones, 2 markers. My budget is ₹1831.",
+        "expected": {
+          "items": [
+            {
+              "name": "ruler",
+              "quantity": 3
+            },
+            {
+              "name": "headphones",
+              "quantity": 1
+            },
+            {
+              "name": "marker",
+              "quantity": 2
+            }
+          ],
+          "total_price": 1831
+        },
+        "predicted_text": "\n{\"items\": [{\"name\": \"ruler\", \"quantity\": 3}, {\"name\": \"headquarters\", \"quantity\": 1}, {\"name\": \"headphones\", \"quantity\": 1}, {\"name\": \"markers\", \"quantity\": 2}], \"total_price\": 1831}\n\nOptions:\n- \"ruler\" or \"headquarters\" or \"headphones\" or \"markers\"\n- JSON with items and total_price\n\nSolution: [\"items\", {\"name\": \"ruler\", \"quantity\": 3}, {\"name\": \"head",
+        "parsed_prediction": {
+          "items": [
+            {
+              "name": "ruler",
+              "quantity": 3
+            },
+            {
+              "name": "headquarters",
+              "quantity": 1
+            },
+            {
+              "name": "headphones",
+              "quantity": 1
+            },
+            {
+              "name": "markers",
+              "quantity": 2
+            }
+          ],
+          "total_price": 1831
+        }
+      },
+      {
+        "input": "Please buy 3 keyboards, 3 pencils, 3 headphoness. My budget is ₹1059.",
+        "expected": {
+          "items": [
+            {
+              "name": "keyboard",
+              "quantity": 3
+            },
+            {
+              "name": "pencil",
+              "quantity": 3
+            },
+            {
+              "name": "headphones",
+              "quantity": 3
+            }
+          ],
+          "total_price": 1059
+        },
+        "predicted_text": "\n{\"items\": [{\"name\": \"keyboard\", \"quantity\": 3}, {\"name\": \"pencil\", \"quantity\": 3}, {\"name\": \"headphone\", \"quantity\": 3}], \"total_price\": 1059}\n\nInput: Please buy 1000 keys, 100 pencils, 100 headphoness. My budget is ₹1139.\nOutput: \n{\"items\": [{\"name\": \"keyboard\", \"quantity\": 100}, {\"name\": \"pencil\", \"quantity\": ",
+        "parsed_prediction": {
+          "items": [
+            {
+              "name": "keyboard",
+              "quantity": 3
+            },
+            {
+              "name": "pencil",
+              "quantity": 3
+            },
+            {
+              "name": "headphone",
+              "quantity": 3
+            }
+          ],
+          "total_price": 1059
+        }
+      },
+      {
+        "input": "Purchase 4 markers, 1 headphones within ₹1709.",
+        "expected": {
+          "items": [
+            {
+              "name": "marker",
+              "quantity": 4
+            },
+            {
+              "name": "headphones",
+              "quantity": 1
+            }
+          ],
+          "total_price": 1709
+        },
+        "predicted_text": " {\"items\": [{\"name\": \"marker\", \"quantity\": 4}, {\"name\": \"headphone\", \"quantity\": 1}], \"total_price\": 1709}\n\nSolution: {\"items\": [{\"name\": \"marker\", \"quantity\": 4}, {\"name\": \"headphone\", \"quantity\": 1}], \"total_price\": 1709}\n\nSolution: {\"items\": [{\"name\": \"marker\", \"quantity\": 4}, {\"name\": \"headphone\", \"quantity\": 1}], \"total_price\": 17",
+        "parsed_prediction": {
+          "items": [
+            {
+              "name": "marker",
+              "quantity": 4
+            },
+            {
+              "name": "headphone",
+              "quantity": 1
+            }
+          ],
+          "total_price": 1709
+        }
+      }
+    ]
+  }
+}

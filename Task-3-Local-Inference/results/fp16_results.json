@@ -1,0 +1,122 @@
+[
+  {
+    "model_type": "FP16",
+    "model": "smollm2:135m-instruct-fp16",
+    "prompt_number": 1,
+    "prompt": "What is photosynthesis? Explain in two sentences.",
+    "answer": "Photosynthesis is a vital process that occurs in plants, algae, and some bacteria, converting light energy from the sun into chemical energy stored in glucose, a simple sugar. This process is essential for life on Earth, as it provides the primary energy source for nearly all ecosystems.",
+    "output_tokens": 56,
+    "generation_seconds": 1.816,
+    "tokens_per_second": 30.83,
+    "load_seconds": 4.202,
+    "total_seconds": 6.253
+  },
+  {
+    "model_type": "FP16",
+    "model": "smollm2:135m-instruct-fp16",
+    "prompt_number": 2,
+    "prompt": "Why do websites use HTTPS? Explain simply.",
+    "answer": "HTTPS stands for Hypertext Transfer Protocol Secure. It's a secure way to send and receive data over the internet, protecting your data from hackers and other malicious actors. Here's why:\n\n1. **Encryption**: HTTPS uses encryption to protect your data from being intercepted or read. This way, even if someone intercepts your data, they won't be able to understand it.",
+    "output_tokens": 80,
+    "generation_seconds": 2.606,
+    "tokens_per_second": 30.7,
+    "load_seconds": 0.006,
+    "total_seconds": 2.71
+  },
+  {
+    "model_type": "FP16",
+    "model": "smollm2:135m-instruct-fp16",
+    "prompt_number": 3,
+    "prompt": "What is the difference between a Python list and tuple?",
+    "answer": "Python lists and tuples are two fundamental data structures used to store and manipulate collections of items. The main difference between them is:\n\n- **Syntax**: Lists are defined using square brackets `[]` and are enclosed in square brackets `[]`. Tuples, on the other hand, are defined using parentheses `()` and are enclosed in parentheses `()`.\n\n- **Performance",
+    "output_tokens": 80,
+    "generation_seconds": 2.75,
+    "tokens_per_second": 29.09,
+    "load_seconds": 0.006,
+    "total_seconds": 2.855
+  },
+  {
+    "model_type": "FP16",
+    "model": "smollm2:135m-instruct-fp16",
+    "prompt_number": 4,
+    "prompt": "What is a primary key in SQL?",
+    "answer": "In SQL, a primary key is a unique identifier for each row in a table. It is a column or a set of columns that uniquely identifies each row in the table. Primary keys are used to enforce data integrity, enforce constraints, and prevent data duplication.\n\nA primary key is typically a column that is used to uniquely identify each row in the table. It is used to ensure that the",
+    "output_tokens": 80,
+    "generation_seconds": 2.76,
+    "tokens_per_second": 28.98,
+    "load_seconds": 0.007,
+    "total_seconds": 2.857
+  },
+  {
+    "model_type": "FP16",
+    "model": "smollm2:135m-instruct-fp16",
+    "prompt_number": 5,
+    "prompt": "What does a CPU do in a computer?",
+    "answer": "A CPU (Central Processing Unit) is the brain of a computer. It's responsible for executing instructions, performing calculations, and managing data. The CPU is the central component of a computer, and it's the heart of the computer's operation.\n\nWhen you run a program or execute a command on your computer, the CPU is the one that performs the calculations and executes the instructions. The CPU",
+    "output_tokens": 80,
+    "generation_seconds": 2.788,
+    "tokens_per_second": 28.69,
+    "load_seconds": 0.007,
+    "total_seconds": 2.885
+  },
+  {
+    "model_type": "FP16",
+    "model": "smollm2:135m-instruct-fp16",
+    "prompt_number": 6,
+    "prompt": "Explain overfitting in machine learning.",
+    "answer": "Overfitting in machine learning occurs when a model is too complex and learns the noise in the training data, rather than the underlying patterns. This results in a model that performs well on the training data but poorly on new, unseen data.\n\nIn other words, the model is too closely fit to the training data, and it's not learning the underlying relationships between the data points. As a result",
+    "output_tokens": 80,
+    "generation_seconds": 2.664,
+    "tokens_per_second": 30.03,
+    "load_seconds": 0.008,
+    "total_seconds": 2.759
+  },
+  {
+    "model_type": "FP16",
+    "model": "smollm2:135m-instruct-fp16",
+    "prompt_number": 7,
+    "prompt": "Calculate 12 multiplied by 8. Give only the answer.",
+    "answer": "To calculate 12 multiplied by 8, we can follow these steps:\n\n1. Multiply 12 by 8: 12 * 8 = 96\n2. Add 12 to 96: 96 + 12 = 108\n\nSo, 12 multiplied by 8 is 108.",
+    "output_tokens": 80,
+    "generation_seconds": 2.716,
+    "tokens_per_second": 29.46,
+    "load_seconds": 0.006,
+    "total_seconds": 2.831
+  },
+  {
+    "model_type": "FP16",
+    "model": "smollm2:135m-instruct-fp16",
+    "prompt_number": 8,
+    "prompt": "Reverse this string: \"RAG\". Give only the result.",
+    "answer": "Reverse a string is a classic problem in programming. Here's a Python solution that uses slicing to reverse the string:\n\n```python\ndef reverse_string(s):\n    return s[::-1]\n\n# Test the function\nprint(reverse_string(\"RAG\"))  # Output: \"AGRAGRAG\"\n```\n\nThis function works by using Python's",
+    "output_tokens": 80,
+    "generation_seconds": 2.774,
+    "tokens_per_second": 28.84,
+    "load_seconds": 0.012,
+    "total_seconds": 2.913
+  },
+  {
+    "model_type": "FP16",
+    "model": "smollm2:135m-instruct-fp16",
+    "prompt_number": 9,
+    "prompt": "Summarize in one sentence: A server stores files and sends them to clients when requested.",
+    "answer": "A server stores files and sends them to clients when requested.",
+    "output_tokens": 13,
+    "generation_seconds": 0.422,
+    "tokens_per_second": 30.84,
+    "load_seconds": 0.005,
+    "total_seconds": 0.549
+  },
+  {
+    "model_type": "FP16",
+    "model": "smollm2:135m-instruct-fp16",
+    "prompt_number": 10,
+    "prompt": "Give exactly three ways to reduce electricity consumption at home.",
+    "answer": "Here are three ways to reduce electricity consumption at home:\n\n1. **Turn Off Lights and Fans**: Turn off lights and fans when not in use, and unplug devices that drain power, such as computers, phones, and TVs. This simple action can save up to 30% on electricity bills.\n\n2. **Use Energy-Efficient Appliances**: Replace old, inefficient",
+    "output_tokens": 80,
+    "generation_seconds": 2.8,
+    "tokens_per_second": 28.57,
+    "load_seconds": 0.007,
+    "total_seconds": 2.912
+  }
+]

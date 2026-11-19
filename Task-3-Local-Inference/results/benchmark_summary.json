@@ -1,0 +1,18 @@
+[
+  {
+    "model_type": "FP16",
+    "model": "smollm2:135m-instruct-fp16",
+    "average_tokens_per_second": 29.6,
+    "peak_ollama_memory_mb": 156.4,
+    "available_ram_before_mb": 1889.8,
+    "available_ram_after_mb": 1641.6
+  },
+  {
+    "model_type": "4-bit",
+    "model": "smollm2:135m-instruct-q4_K_M",
+    "average_tokens_per_second": 51.66,
+    "peak_ollama_memory_mb": 157.5,
+    "available_ram_before_mb": 1969.4,
+    "available_ram_after_mb": 1822.9
+  }
+]
